@@ -19,6 +19,8 @@ resource "cloudflare_zone_settings_override" "this" {
     hotlink_protection  = var.zone_settings_override.hotlink_protection
     http3               = var.zone_settings_override.http3
     min_tls_version     = var.zone_settings_override.min_tls_version
+    mirage              = var.zone_settings_override.mirage
+    rocket_loader       = var.zone_settings_override.rocket_loader
     server_side_exclude = var.zone_settings_override.server_side_exclude
     zero_rtt            = var.zone_settings_override.zero_rtt
   }
