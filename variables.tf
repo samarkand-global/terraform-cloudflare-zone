@@ -17,6 +17,8 @@ variable "zone_settings_override" {
     hotlink_protection  = optional(string)
     http3               = optional(string)
     min_tls_version     = optional(string)
+    mirage              = optional(string)
+    rocket_loader       = optional(string)
     server_side_exclude = optional(string)
     zero_rtt            = optional(string)
   })
