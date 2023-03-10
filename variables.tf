@@ -1,5 +1,6 @@
 variable "zone" {
   type = object({
+    account_id = string
     zone       = string
     paused     = optional(bool)
     jump_start = optional(bool)
