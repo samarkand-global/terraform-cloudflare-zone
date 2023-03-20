@@ -1,5 +1,5 @@
 resource "cloudflare_zone" "this" {
-  account_id = var.account_id
+  account_id = var.zone.account_id
   zone       = var.zone.zone
   paused     = var.zone.paused
   jump_start = var.zone.jump_start
